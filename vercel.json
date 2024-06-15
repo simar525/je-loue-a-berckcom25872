@@ -1,8 +1,11 @@
 {
+  "redirects": [{"source": "/je-loue-a-berck.com",       "destination": "/https:locationberck.com",       "permanent": true     }
+],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "https://locationberck.com/$1"
- }
+    }
   ]
 }
+    
